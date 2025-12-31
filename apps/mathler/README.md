@@ -175,6 +175,3 @@ With more time, I would add:
 - **Testing**: Vitest
 - **Build**: Turborepo, pnpm workspaces
 
----
-
-Built for the Dynamic take-home assignment. The x402 integration demonstrates how crypto wallets can power **real in-app purchases**, complementing collectible-based features like NFTs.
