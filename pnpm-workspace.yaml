@@ -1,0 +1,5 @@
+# pnpm workspace configuration
+# Similar to Elixir umbrella's apps/ directory - defines where packages live
+packages:
+  - "packages/*"
+  - "apps/*"
