@@ -15,7 +15,7 @@ Bips lets you add crypto micropayments to any web app in minutes. Users pay with
 
 ## Live Demo
 
-[**Mathler**](https://mathler-demo.vercel.app) - A math puzzle game where you can buy hints for $0.05 USDC
+[**Mathler**](https://bips-mathler.vercel.app) - A math puzzle game where you can buy hints for $0.05 USDC
 
 ## Project Structure
 

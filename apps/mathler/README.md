@@ -4,7 +4,7 @@ A Wordle-inspired math puzzle game with **real cryptocurrency micropayments** fo
 
 ## Live Demo
 
-[**Play Mathler**](https://mathler-demo.vercel.app) (Base Sepolia testnet)
+[**Play Mathler**](https://bips-mathler.vercel.app) (Base Sepolia testnet)
 
 ## The Crypto Feature: x402 Micropayments
 
