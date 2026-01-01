@@ -8,7 +8,7 @@ A Wordle-inspired math puzzle game with **real cryptocurrency micropayments** fo
 
 ## The Crypto Feature: x402 Micropayments
 
-The assignment suggested minting an NFT on first solve - a great way to showcase wallet integration. I decided to take it a step further by implementing **pay-per-use micropayments** for game hints, demonstrating how crypto can enable real in-app purchases.
+Instead of minting NFTs (great for collectibles), this project implements **pay-per-use micropayments** for game hints, demonstrating how crypto can enable real in-app purchases.
 
 ### Why Micropayments?
 
@@ -86,14 +86,14 @@ const signature = await walletClient.signTypedData({
 
 ## Testing Strategy
 
-I focused on testing the **game logic** thoroughly since that's the core domain:
+The tests focus on **game logic** thoroughly since that's the core domain:
 
 ```bash
 pnpm test
 # 110 tests passing
 ```
 
-### What I Test
+### Test Coverage
 
 | Layer | Approach | Why |
 |-------|----------|-----|
@@ -159,7 +159,7 @@ The `@bips/react` and `@bips/server` packages are designed to be reusable across
 
 ## Future Improvements
 
-With more time, I would add:
+Potential enhancements:
 - [ ] Gasless transactions (paymaster/sponsor)
 - [ ] Revenue splitting (app vs protocol)
 - [ ] More purchasable items (extra guesses, daily skip)
