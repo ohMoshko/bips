@@ -5,7 +5,6 @@
  * It tracks which positions have been revealed to prevent duplicate hints.
  */
 
-import 'dotenv/config';
 import { createBipsServer } from '@bips/server';
 import type { BipsConfig } from '@bips/core';
 

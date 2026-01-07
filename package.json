@@ -10,9 +10,12 @@
     "test:watch": "turbo test:watch",
     "typecheck": "turbo typecheck",
     "lint": "turbo lint",
-    "clean": "turbo clean && rm -rf node_modules"
+    "clean": "turbo clean && rm -rf node_modules",
+    "dev:mathler": "dotenv -e .env.local -- pnpm --filter mathler dev",
+    "dev:server": "dotenv -e .env.local -- pnpm --filter mathler dev:server"
   },
   "devDependencies": {
+    "dotenv-cli": "^11.0.0",
     "turbo": "^2.3.0",
     "typescript": "^5.7.2"
   },

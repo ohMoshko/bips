@@ -77,10 +77,12 @@ BIPS_NETWORK=base-sepolia
 # Build all packages
 pnpm build
 
-# Start development servers
+# Start development servers (run from project root)
 pnpm dev:mathler      # Frontend: http://localhost:5173
 pnpm dev:server       # Backend:  http://localhost:3001
 ```
+
+**Note:** Always run commands from the project root. The scripts automatically load `.env.local`.
 
 ### Run Tests
 

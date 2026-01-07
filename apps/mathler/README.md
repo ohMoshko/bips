@@ -119,16 +119,16 @@ pnpm test
 ### Setup
 
 ```bash
-# Install dependencies
+# From project root (bips/)
 pnpm install
-
-# Build packages
 pnpm build
 
-# Start development servers
+# Start development servers (from project root)
 pnpm dev:mathler      # Frontend on http://localhost:5173
 pnpm dev:server       # Backend on http://localhost:3001
 ```
+
+**Note:** Run all commands from the project root to ensure `.env.local` is loaded correctly.
 
 ### Getting Testnet USDC
 
